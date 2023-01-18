@@ -2,6 +2,15 @@ package org.bedu.java.jse.basico.sesion2.ejemplo3;
 
 public class For {
     public static void main(String[] args) {
+        /* 
+        Estructuras de repetición:
+        * for, while, do-while, for-each
+        * Variable de control. Nos ayuda a hacer las repeticiones, controla el flujo de ejecución
+        * Condición. 
+        * Bloque de instrucciones
+        * Actualización: Cambiar la variable de control hasta que la condición sea falsa.
+        */
+
         for (int i = 1; i <= 10; i++) {
 //            System.out.println("El valor de i es " + i);
         }
