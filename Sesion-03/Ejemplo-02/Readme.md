@@ -1,5 +1,13 @@
 ## Ejemplo 02: Clase propia
 
+### Apuntes
+Divide y vencerás
+
+- Haz el código por cachitos, luego lo integras. Main debe ser la parte que integre todas las partes. En modularización
+- Main es el coordinador de la empresa.
+
+Se crean clases para cada necesidad. ASí que tendremos varios programitas/clases java
+
 ### OBJETIVO
 
 - Aprender los elementos básicos de la declaración de una clase propia.

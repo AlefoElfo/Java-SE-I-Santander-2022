@@ -2,12 +2,16 @@ package org.bedu.java.jse.basico.sesion3.ejemplo2;
 
 public class ContadorCaracteres {
 
+    // El nombre de isX es una convención para detectar booleanos.
+    // Hay quienes buscan nombres cortos de variables y otros grandes y descriptivos
+    // Cuidado con el if redundante
 
-    public boolean isVocal(char caracter){
+    public boolean isVocal(char caracter) {
         return (caracter == 'a' || caracter == 'e' || caracter == 'i' || caracter == 'o' || caracter == 'u');
     }
 
-    public boolean isNumero(char caracter){
+    public boolean isNumero(char caracter) {
+        // Usar codigoAscii para evitar escribir los 10 números, así tomamos la lista de ascii que corresponde a los números
         short codigoAscii = (short)caracter;
         return codigoAscii >= 48 && codigoAscii <= 57;
     }
@@ -21,8 +25,16 @@ public class ContadorCaracteres {
         return !(isVocal(caracter) || isNumero(caracter) || isConsonante(caracter));
     }
 
-
-
+    /* Con manu
+    public int cuentaCaracteres(String cadena) {
+        int contador = 0;
+        for (int i = 0; i < cadena.lenght(); i++) {
+            if (isVocal(cadena.charAt(i))) {
+                contador++;
+            }
+        }
+    }
+     */
 
     public int cuentaVocales(String palabra){
         int vocales = 0;
