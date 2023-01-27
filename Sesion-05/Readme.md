@@ -1,5 +1,13 @@
 ## Sesión 05: Herencia
 
+## Apuntes
+Nos ayuda a reutilizar el código
+
+Atributos estáticos y atributos finales (hay un erroe en e prework. los atribitos est desribem a rodlsla objetos. nos auuda a mmejorar la visiblidad.)
+
+Hay que hacer legible el código.
+
+
 ### OBJETIVOS 
 
 - Distinguir las características de los miembros estáticos y finales.
