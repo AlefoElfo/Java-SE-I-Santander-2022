@@ -6,7 +6,7 @@ import java.util.Queue;
 
 public class Colas {
     public static void main(String[] args) {
-        Queue<String> cola = new PriorityQueue<>();
+        Queue<String> cola = new PriorityQueue<>(); //Darle más prioridad a algunos elementos que a otros
 
         cola.add("uno");
         cola.add("dos");
@@ -14,17 +14,18 @@ public class Colas {
         cola.add("cuatro");
         cola.add("cinco");
 
-
-//        for (String cadena : cola) {
-//            System.out.println(cadena);
-//        }
-
+        /*
+        for (String cadena : cola) {
+            System.out.println(cadena);
+        }
+        */
+        
         String valor = null;
-
-        while ( (valor = cola.poll()) != null){
+        // Minetras sea distinta de null, imprime esa variable:
+        while ((valor = cola.poll()) != null) {
             //System.out.println(valor);
         }
-
+        // La prioridad que toma por default es el orden alfabético
 
         Queue<Libro> libros = new PriorityQueue<>();
         libros.add(new Libro("uno", 4));
