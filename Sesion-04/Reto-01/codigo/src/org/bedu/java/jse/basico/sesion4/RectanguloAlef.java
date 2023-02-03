@@ -1,11 +1,23 @@
 package org.bedu.java.jse.basico.sesion4;
 
 public class RectanguloAlef {
-    private double alto;
-    private double ancho;
+    private double altoAlef;
+    private double anchoAlef;
     
-    {
-        alto = 0;
-        ancho = 0;
+    // Sobrecarga!
+    public RectanguloAlef (double altoAlef, double anchoAlef) {
+        this.altoAlef = altoAlef;
+        this.anchoAlef = anchoAlef;
+    }
+    public RectanguloAlef(double lados) {
+        this(lados, lados);
+    }
+
+    public RectanguloAlef() {
+        this(0);
+    }
+    
+    public double areaAlef() {
+        return altoAlef * anchoAlef;
     }
 }
